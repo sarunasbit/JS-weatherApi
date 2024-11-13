@@ -1,0 +1,22 @@
+.weather__display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 8rem auto;
+    .weather__data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: 2px solid black;
+        padding: 6em;
+        border-radius: 0.5rem;
+        h4{
+            margin-top: 1rem;
+        }
+        img {
+            max-width: 3em;
+        }
+    }
+}
